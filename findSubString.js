@@ -16,7 +16,7 @@
  function task1(){
     let args
     let resultArr = []
-    if(process.argv.length <= 2) return("")
+    if(process.argv.length <= 2) return("No argument")
     else args = process.argv.slice(2)
     if(args.length === 1) return(args[0])
     const arrayPossiblity = getAllCase(args[0])
