@@ -10,11 +10,3 @@ The function findSubString accept many String arguments
 - if there is just one argument, it returns this argument.
 
 - if there are many arguments, it returns the largest substring shared between these arguments.
-
-This Function implement another function called "largestSubString()" which will alows us to obtain the largest substring between two passed String.
-
-# Function largestSubString :
-
-The function accept two String arguments and proceed to find the largest substring shared between these two String argument.
-
-- This function returns a String (largest subString found)
